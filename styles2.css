@@ -1,0 +1,120 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+/* Styling the title (h1) */
+h1 {
+    text-decoration: underline;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 3D shadow effect */
+    color: white; /* Stand out on the background image */
+    margin-bottom: 20px;
+}
+
+/* Card component styles */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds soft shadow */
+    max-width: 300px;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.card-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card-btn:hover {
+    background-color: #45a049; /* Button hover effect */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Lifts the card on hover */
+}
+
+/* Button styling */
+.styled-button {
+    cursor: pointer; /* Change cursor to pointer */
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.styled-button:hover {
+    background-color: #45a049; /* Hover effect for button */
+}
+
+/* Paragraph styling */
+p {
+    margin-bottom: 20px; /* Adds space below the paragraph */
+}
+
+/* Link styling */
+a {
+    margin-bottom: 20px; /* Adds space below links */
+    display: inline-block; /* Ensures margins apply */
+    color: white; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff5733; /* Changes color when hovering over links */
+}
+
+/* Background color sections */
+.background-pink {
+    background-color: pink;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.background-blue {
+    background-color: rgb(204, 192, 255);
+    padding: 20px;
+    margin: 20px 0;
+}
